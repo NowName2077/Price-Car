@@ -12,6 +12,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.Domain.Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.Domain", "Domain\AutoSpot.Domain\AutoSpot.Domain.csproj", "{156F8E13-559A-436C-A30B-D689E5090DA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.Application.Models", "Application\AutoSpot.Application.Models\AutoSpot.Application.Models.csproj", "{DDC40D37-11E7-41EF-AE88-1BF4B79F5F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.Application.Services", "Application\AutoSpot.Application.Services\AutoSpot.Application.Services.csproj", "{6C44D882-6EEC-4C0E-BEA1-BD74D83B6CBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,8 @@ Global
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C} = {292DB552-44AE-45E8-8E3A-1C2ACE430556}
 		{52E82FB3-CAE2-4D9D-880F-C9C34043907E} = {292DB552-44AE-45E8-8E3A-1C2ACE430556}
 		{156F8E13-559A-436C-A30B-D689E5090DA1} = {292DB552-44AE-45E8-8E3A-1C2ACE430556}
+		{DDC40D37-11E7-41EF-AE88-1BF4B79F5F2E} = {1BC121D4-7F41-4FE3-B377-A6F51E68E49C}
+		{6C44D882-6EEC-4C0E-BEA1-BD74D83B6CBE} = {1BC121D4-7F41-4FE3-B377-A6F51E68E49C}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -35,5 +41,13 @@ Global
 		{156F8E13-559A-436C-A30B-D689E5090DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{156F8E13-559A-436C-A30B-D689E5090DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{156F8E13-559A-436C-A30B-D689E5090DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC40D37-11E7-41EF-AE88-1BF4B79F5F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC40D37-11E7-41EF-AE88-1BF4B79F5F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC40D37-11E7-41EF-AE88-1BF4B79F5F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC40D37-11E7-41EF-AE88-1BF4B79F5F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C44D882-6EEC-4C0E-BEA1-BD74D83B6CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C44D882-6EEC-4C0E-BEA1-BD74D83B6CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C44D882-6EEC-4C0E-BEA1-BD74D83B6CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C44D882-6EEC-4C0E-BEA1-BD74D83B6CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

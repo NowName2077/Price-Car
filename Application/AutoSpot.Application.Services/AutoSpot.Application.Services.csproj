@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Domain\AutoSpot.Domain.Repositories.Abstractions\AutoSpot.Domain.Repositories.Abstractions.csproj" />
+      <ProjectReference Include="..\..\Domain\AutoSpot.Domain\AutoSpot.Domain.csproj" />
+      <ProjectReference Include="..\..\Domain\AutoSpot.ValueObjects\AutoSpot.ValueObjects.csproj" />
+      <ProjectReference Include="..\AutoSpot.Application.Models\AutoSpot.Application.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="16.0.0" />
+    </ItemGroup>
+
+</Project>
