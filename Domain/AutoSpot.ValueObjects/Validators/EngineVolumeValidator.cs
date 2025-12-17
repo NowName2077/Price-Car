@@ -1,11 +1,14 @@
-﻿namespace AutoSpot.ValueObjects.Validators;
+﻿using AutoSpot.ValueObjects.Base;
 
-public class EngineVolumeValidator: AbstractValidator<decimal>
+namespace AutoSpot.ValueObjects.Validators;
+
+public class EngineVolumeValidator:  IValidator<decimal>
 {
-    public EngineVolumeValidator()
+    public void Validate(decimal value)
     {
-        RuleFor(volume => volume)
-            .GreaterThan(0).WithMessage("Engine volume must be positive")
-            .LessThanOrEqualTo(20).WithMessage("Engine volume cannot exceed 20 liters");
+        if (value <= 0 || value > 20)
+        {
+            throw new ArgumentOutOfRangeException(nameof(value), "Engine volume must be between 0 and 20 liters.");
+        }
     }
 }
