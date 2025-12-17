@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.ValueObjects", "Domain\AutoSpot.ValueObjects\AutoSpot.ValueObjects.csproj", "{B9B631D7-1C8A-4107-A84B-944DDE58F84C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.Domain.Repositories.Abstractions", "Domain\AutoSpot.Domain.Repositories.Abstractions\AutoSpot.Domain.Repositories.Abstractions.csproj", "{52E82FB3-CAE2-4D9D-880F-C9C34043907E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSpot.Domain", "Domain\AutoSpot.Domain\AutoSpot.Domain.csproj", "{156F8E13-559A-436C-A30B-D689E5090DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,21 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C} = {292DB552-44AE-45E8-8E3A-1C2ACE430556}
+		{52E82FB3-CAE2-4D9D-880F-C9C34043907E} = {292DB552-44AE-45E8-8E3A-1C2ACE430556}
+		{156F8E13-559A-436C-A30B-D689E5090DA1} = {292DB552-44AE-45E8-8E3A-1C2ACE430556}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9B631D7-1C8A-4107-A84B-944DDE58F84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52E82FB3-CAE2-4D9D-880F-C9C34043907E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52E82FB3-CAE2-4D9D-880F-C9C34043907E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52E82FB3-CAE2-4D9D-880F-C9C34043907E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52E82FB3-CAE2-4D9D-880F-C9C34043907E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156F8E13-559A-436C-A30B-D689E5090DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156F8E13-559A-436C-A30B-D689E5090DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156F8E13-559A-436C-A30B-D689E5090DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156F8E13-559A-436C-A30B-D689E5090DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
