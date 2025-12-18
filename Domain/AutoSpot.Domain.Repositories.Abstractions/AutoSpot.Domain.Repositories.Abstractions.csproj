@@ -6,7 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
     <ItemGroup>
-        <ProjectReference Include="..\Auto" />
         <ProjectReference Include="..\AutoSpot.Domain\AutoSpot.Domain.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="Npgsql" Version="8.0.8" />
     </ItemGroup>
 </Project>
