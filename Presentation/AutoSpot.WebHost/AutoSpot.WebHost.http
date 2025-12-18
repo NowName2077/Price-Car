@@ -1,0 +1,6 @@
+@AutoSpot.WebHost_HostAddress = http://localhost:5171
+
+GET {{AutoSpot.WebHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
